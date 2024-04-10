@@ -17,5 +17,8 @@ public class ClientApplication {
 
         Pen celloBall = new BallPen(new SmoothWriteStrategy());
         celloBall.write();
+
+        Pen writeMax = new BallPen(new SmoothWriteStrategy());
+        celloBall.write();
     }
 }
