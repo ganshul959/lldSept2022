@@ -1,16 +1,14 @@
-package casestudies.pen.pens;
+package casestudies.pen2.pens;
 
-import casestudies.pen.Refil;
-import casestudies.pen.writestrategies.WriteStrategy;
+import casestudies.pen2.Refil;
+import casestudies.pen2.writeStrategies.WriteStrategy;
 
-import java.sql.Ref;
+public class SketchPen extends Pen{
+    private Refil refil;
 
-public class SketchPen extends Pen {
     public SketchPen(WriteStrategy writeStrategy) {
         super(writeStrategy);
     }
-
-    private Refil refil;
 
     public Refil getRefil() {
         return refil;

@@ -1,11 +1,10 @@
-package casestudies.pen.pens;
+package casestudies.pen2.pens;
 
-import casestudies.pen.Refil;
-import casestudies.pen.writestrategies.WriteStrategy;
+import casestudies.pen2.Refil;
+import casestudies.pen2.writeStrategies.WriteStrategy;
 
-import java.sql.Ref;
+public class GelPen extends Pen{
 
-public class GelPen extends Pen {
     private Refil refil;
 
     public GelPen(WriteStrategy writeStrategy) {
@@ -22,6 +21,6 @@ public class GelPen extends Pen {
 
     @Override
     public void write() {
-
+        super.write();
     }
 }

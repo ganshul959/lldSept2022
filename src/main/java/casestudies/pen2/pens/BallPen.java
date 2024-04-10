@@ -1,10 +1,10 @@
-package casestudies.pen.pens;
+package casestudies.pen2.pens;
 
-import casestudies.pen.Refil;
-import casestudies.pen.writestrategies.SmoothWriteStrategy;
-import casestudies.pen.writestrategies.WriteStrategy;
+import casestudies.pen2.Refil;
+import casestudies.pen2.writeStrategies.WriteStrategy;
 
-public class BallPen extends Pen {
+public class BallPen extends Pen{
+
     private Refil refil;
 
     public BallPen(WriteStrategy writeStrategy) {
@@ -21,6 +21,7 @@ public class BallPen extends Pen {
 
     @Override
     public void write() {
-       super.write();
+        super.write();
+        System.out.println("Ball Pen write Strategy");
     }
 }

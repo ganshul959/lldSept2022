@@ -7,6 +7,7 @@ import casestudies.pen.writestrategies.SmoothWriteStrategy;
 public class Main {
     public static void main(String[] args) {
         Pen reynoldsTrimax = new BallPen(new SmoothWriteStrategy());
+        reynoldsTrimax.write();
 
     }
 }
